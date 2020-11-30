@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/*font-family: 'Noto Sans KR', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/*font-family: 'Lato', sans-serif;*/
+
+/*---------------------------------------------------------------------*/
+
+html{
+    width:100%;
+    height:100%;
+}
+
+body{
+    margin:0;
+    width:100%;
+    height:100%;
+}
+
+section{
+    width:100%;
+    height:100vh;
+}
+
+.main{
+    background-color: black;
+}
+
+.main .circle{
+    position:absolute;
+    width:0;
+    height:0;
+    border:1px solid #fff;
+    margin:auto;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    border-radius:100%;
+    animation:water 2.5s ease-in-out;
+}
+
+.main .circle1{
+    position:absolute;
+    width:0px;
+    height:0px;
+    border:1px solid #fff;
+    margin:auto;
+    left:600px;
+    right:0;
+    top:-350px;
+    bottom:0;
+    border-radius:100%;
+    animation:water1 2.5s infinite 2s;
+    animation-delay: 1.8s;
+}
+
+.main .circle2{
+    position:absolute;
+    width:0;
+    height:0;
+    border:1px solid #fff;
+    margin:auto;
+    left:0;
+    right:650px;
+    top:250px;
+    bottom:0;
+    border-radius:100%;
+    animation:water2 2.5s infinite 2s;
+    animation-delay: 2.3s;
+}
+
+.main .circle3{
+    position:absolute;
+    width:0;
+    height:0;
+    border:1px solid #fff;
+    margin:auto;
+    left:-1300px;
+    right:0;
+    top:-400px;
+    bottom:0;
+    border-radius:100%;
+    animation:water3 2.8s infinite;
+    animation-delay: 2.6s;
+}
+
+.main .circle4{
+    position:absolute;
+    width:0;
+    height:0;
+    border:1px solid #fff;
+    margin:auto;
+    left:900px;
+    right:0;
+    top:500px;
+    bottom:0;
+    border-radius:100%;
+    animation:water4 2.8s infinite;
+    animation-delay: 3s;
+}
+
+.main h2{
+    position: relative;
+    color:#fff;
+    text-align: center;
+    top:40%;
+    font-size:6.1875rem;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.05em;
+}
+
+.main h2 span{
+    font-size:9.6875rem;
+    font-weight: 500;
+}
+
+.main h2 span:hover{
+    color:red;
+}
+/*------------------------------------------------------*/
+.intro{
+    background-color: rgb(221, 221, 221);
+}
+
+.intro .circle{
+    position: absolute;
+    width:600px;
+    height:600px;
+    border:1px solid #838383;
+    border-radius:100%;
+    left:50%;
+    margin-left:-300px;
+    top:118%;
+    bottom:22%;
+}
+
+.intro .f_int{
+    position: relative;
+    display: none;
+    text-align:center;
+    font-size:2.5rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:300;
+    line-height:1.5em;
+    color:#838383;
+    top:42%;
+    bottom:58%;
+}
+
+.intro .f_int span{
+    font-weight:500;
+    font-size:2.75rem;
+}
+
+.intro .s_int{
+    width:50%;
+    position: relative;
+    text-align:center;
+    font-size:1.5rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:300;
+    line-height:1.5em;
+    color:#838383;
+    top:42%;
+    bottom:58%;
+    left:50%;
+    margin-left:-25%;
+}
+
+.intro .s_int span{
+    font-weight:500;
+    font-size:1.75rem;
+}
+/*---------------------------------------------------------*/
+@keyframes water{
+    from{
+        width:0px;
+        height:0px;
+    }
+    to{
+        width:700px;
+        height:700px;
+        opacity:0;
+    }    
+}
+
+@keyframes water1{
+    from{
+        width:0px;
+        height:0px;
+    }
+    to{
+        width:300px;
+        height:300px;
+        opacity:0;
+    }
+    
+}
+
+@keyframes water2{
+    from{
+        width:0px;
+        height:0px;
+    }
+    to{
+        width:100px;
+        height:100px;
+        opacity:0;
+    }
+    
+}
+
+@keyframes water3{
+    from{
+        width:0px;
+        height:0px;
+    }
+    to{
+        width:750px;
+        height:750px;
+        opacity:0;
+    }
+    
+}
+
+@keyframes water4{
+    from{
+        width:0px;
+        height:0px;
+    }
+    to{
+        width:500px;
+        height:500px;
+        opacity:0;
+    }
+    
+}
