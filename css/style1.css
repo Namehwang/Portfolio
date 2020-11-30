@@ -186,7 +186,6 @@ body{
     clip-path:circle(0px at 11.5% 37%);
     -webkit-clip-path:circle(0px at 11.5% 37%);
     transition:all 1s ease-out;
-    z-index:5;
 }
 
 .cont1 .wrap.open{
@@ -305,7 +304,6 @@ body{
     clip-path:circle(0px at 29% 64.5%);
     -webkit-clip-path:circle(0px at 29% 64.5%);
     transition:all 1s ease-out;
-    z-index:5;
 }
 
 .cont2 .wrap.open{
@@ -425,7 +423,6 @@ body{
     clip-path:circle(0px at 56.5% 57%);
     -webkit-clip-path:circle(0px at 56.5% 57%);
     transition:all 1s ease-out;
-    z-index:5;
 }
 
 .cont3 .wrap.open{
@@ -545,7 +542,6 @@ body{
     clip-path:circle(0px at 72% 72%);
     -webkit-clip-path:circle(0px at 72% 72%);
     transition:all 1s ease-out;
-    z-index:5;
 }
 
 .cont4 .wrap.open{
@@ -644,247 +640,6 @@ body{
     position: relative;
     width:65%;
     background-image: url('../images/m4.jpg');
-    background-size: cover;
-    background-position:center;
-    background-repeat: no-repeat;
-}
-/*----------------------------------------------------------*/
-.cont5 .wrap{
-    /*position: relative;
-    width:100%;
-    height:100vh;*/
-    position:fixed;
-    top:200%;
-    background:#000;
-    display:flex;
-    list-style:none;
-    width:100%;
-    height:100vh;
-    justify-content: space-around;
-    align-items: center;
-    margin-left:auto;
-    clip-path:circle(0px at 65% 22.2%);
-    -webkit-clip-path:circle(0px at 65% 22.2%);
-    transition:all 1s ease-out;
-    z-index:5;
-}
-
-.cont5 .wrap.open{
-    clip-path:circle(2000px at 65% 22.2%);
-    -webkit-clip-path:circle(2000px at 65% 22.2%);
-}
-
-.cont5 .wrap.close{
-    clip-path:circle(0px at 65% 22.2%);
-    -webkit-clip-path:circle(0px at 65% 22.2%);
-}
-
-.wrap .close{
-    position:absolute;
-    z-index:2;
-    top:30px;
-    right:30px;
-    cursor:pointer;
-}
-
-.wrap .close h2{
-    font-family: 'Lato', sans-serif;
-    font-weight:700;
-    font-size:1.5rem;
-    color:#fff;
-}
-
-.cont5 .project{
-    position:absolute;
-    cursor:pointer;
-    left:60%;
-    top:20%;
-    
-}
-
-.cont5 .project h2{
-    font-family: 'Lato', sans-serif;
-    font-weight:700;
-    font-size:2.5rem;
-    z-index:-4;
-}
-
-.poom{
-    width:100%;
-    height:100vh;
-    color:#fff;
-}
-
-.poom h3{
-    position: relative;
-    width:30%;
-    font-family: 'Lato', sans-serif;
-    font-weight:900;
-    font-size:3.5rem;
-    top:120px;
-    left:80px;
-}
-
-.poom ul{
-    position: relative;
-    display: flex;
-    list-style: none;
-    width:94%;
-    height:50%;
-    left:3%;
-    right:3%;
-    top:22%;
-}
-
-.poom ul li:first-child{
-    position: relative;
-    width:35%;
-}
-
-.poom ul li:first-child p{
-    position: relative;
-    top:8%;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size:1.3rem;
-    letter-spacing: 0.1em;
-    line-height: 2.1em;
-    font-weight: 300;
-}
-
-.poom ul li:first-child span{
-    position: relative;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size:1.6rem;
-    letter-spacing: 0.1em;
-    line-height:1.5em;
-    font-weight:700;
-    top:18%;
-    color:red;
-}
-
-.poom ul li:last-child{
-    position: relative;
-    width:65%;
-    background-image: url('../images/poom.jpg');
-    background-size: cover;
-    background-position:center;
-    background-repeat: no-repeat;
-}
-/*---------------------------------------------------------*/
-.cont6 .wrap{
-    /*position: relative;
-    width:100%;
-    height:100vh;*/
-    position:fixed;
-    top:200%;
-    background:#000;
-    display:flex;
-    list-style:none;
-    width:100%;
-    height:100vh;
-    justify-content: space-around;
-    align-items: center;
-    margin-left:auto;
-    clip-path:circle(0px at 38% 26%);
-    -webkit-clip-path:circle(0px at 38% 26%);
-    transition:all 1s ease-out;
-    z-index:5;
-}
-
-.cont6 .wrap.open{
-    clip-path:circle(2000px at 38% 26%);
-    -webkit-clip-path:circle(2000px at 38% 26%);
-}
-
-.cont6 .wrap.close{
-    clip-path:circle(0px at 38% 26%);
-    -webkit-clip-path:circle(0px at 38% 26%);
-}
-
-.wrap .close{
-    position:absolute;
-    z-index:2;
-    top:30px;
-    right:30px;
-    cursor:pointer;
-}
-
-.wrap .close h2{
-    font-family: 'Lato', sans-serif;
-    font-weight:700;
-    font-size:1.5rem;
-    color:#fff;
-}
-
-.cont6 .project{
-    position:absolute;
-    cursor:pointer;
-    left:33%;
-    top:24%;
-}
-
-.cont6 .project h2{
-    font-family: 'Lato', sans-serif;
-    font-weight:700;
-    font-size:2.5rem;
-}
-
-.about{
-    width:100%;
-    height:100vh;
-    color:#fff;
-}
-
-.about h3{
-    position: relative;
-    width:30%;
-    font-family: 'Lato', sans-serif;
-    font-weight:900;
-    font-size:3.5rem;
-    top:120px;
-    left:80px;
-}
-
-.about ul{
-    position: relative;
-    display: flex;
-    list-style: none;
-    width:94%;
-    height:50%;
-    left:3%;
-    right:3%;
-    top:22%;
-}
-
-.about ul li:first-child{
-    position: relative;
-    width:35%;
-}
-
-.about ul li:first-child p{
-    position: relative;
-    top:25%;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size:1.3rem;
-    letter-spacing: 0.1em;
-    line-height: 2.1em;
-    font-weight: 300;
-}
-
-.about ul li:first-child span{
-    position: relative;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size:1.6rem;
-    letter-spacing: 0.1em;
-    font-weight:700;
-    top:36%;
-    color:red;
-}
-
-.about ul li:last-child{
-    position: relative;
-    width:65%;
-    background-image: url('../images/k5.jpg');
     background-size: cover;
     background-position:center;
     background-repeat: no-repeat;
