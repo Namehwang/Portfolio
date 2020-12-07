@@ -1025,7 +1025,7 @@ body{
     color:#fff;
 }
 
-.about h3{
+.about .a_title{
     position: relative;
     width:30%;
     font-family: 'Lato', sans-serif;
@@ -1037,7 +1037,6 @@ body{
 
 .about ul{
     position: relative;
-    display: flex;
     list-style: none;
     width:94%;
     height:50%;
@@ -1048,37 +1047,26 @@ body{
 
 .about ul li:first-child{
     position: relative;
-    width:35%;
+    width:40%;
 }
 
-.about ul li:first-child p{
+.about ul li:first-child .t_title{
     position: relative;
-    top:25%;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size:1.3rem;
-    letter-spacing: 0.1em;
-    line-height: 2.1em;
-    font-weight: 300;
+    font-size:1.4rem;
+    text-align:center;
 }
 
-.about ul li:first-child span{
+.about ul li:first-child ul{
     position: relative;
-    font-family: 'Noto Sans KR', sans-serif;
-    font-size:1.6rem;
-    letter-spacing: 0.1em;
-    font-weight:700;
-    top:36%;
-    color:red;
+    width:100%;
 }
 
-.about ul li:last-child{
+.about ul li:first-child ul li:first-child img{
     position: relative;
-    width:65%;
-    background-image: url('../images/k5.jpg');
-    background-size: cover;
-    background-position:center;
-    background-repeat: no-repeat;
+    width:50%;
 }
+
+
 /*---------------------------------------------------------*/
 .s3 .profile_img{
     position: relative;
