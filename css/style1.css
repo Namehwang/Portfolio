@@ -1080,3 +1080,62 @@ body{
     background-repeat: no-repeat;
 }
 /*---------------------------------------------------------*/
+.s3 .profile_img{
+    position: relative;
+    top:-10%;
+    left:39.8%;
+    
+}
+
+
+.s3 .profile_img img{
+    width:20%;
+    clip-path:circle(150px at center);
+    -webkit-clip-path:circle(150px at center);
+}
+
+.s3 h3{
+    position: relative;
+    top:-15%;
+    text-align:center;
+    font-size:1.5625rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    color:#838383;
+    font-weight:500;
+}
+
+.s3 .contact{
+    position: relative;
+    width:40%;
+    top:-6%;
+}
+
+.contact ul{
+    position: relative;
+    list-style: none;
+    left:50%;
+}
+
+.contact ul li ul{
+    position: relative;
+    display:flex;
+}
+
+.contact ul li ul li:first-child{
+    position:relative;
+    width:20%;
+}
+
+.contact ul li ul li:first-child img{
+    position: relative;
+    width:45%;
+    padding-top:1em;
+}
+
+.contact ul li ul li:last-child{
+    position:relative;
+    width:80%;
+    font-family: 'Lato', sans-serif;
+    font-size:1.2rem;
+    line-height:4.2em;
+}
