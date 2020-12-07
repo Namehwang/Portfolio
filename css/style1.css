@@ -108,6 +108,7 @@ body{
     font-weight: 300;
     font-family: 'Lato', sans-serif;
     letter-spacing: 0.05em;
+    animation:title 2.5s ease-in-out;
 }
 
 .s0 h2 span{
@@ -123,7 +124,7 @@ body{
     background-color: rgb(221, 221, 221);
 }
 
-.s1 .circle{
+.s1 .circle_s1{
     position: absolute;
     width:600px;
     height:600px;
@@ -132,29 +133,112 @@ body{
     left:50%;
     margin-left:-300px;
     bottom:17%;
+    transform: scale(0);
+}
+
+.s1 .circle_s1.res{
+    animation:res ease-in-out 1.5s;
+    transform: scale(1);
+}
+
+.s1 .circle_s1.res.rot{
+    animation: rot ease-in-out 3s;
+}
+
+.s1 .circle_s1-1{
+    position: absolute;
+    width:600px;
+    height:600px;
+    border:1px solid #838383;
+    border-radius:100%;
+    left:50%;
+    margin-left:-300px;
+    bottom:17%;
+    transform: scale(0);
+}
+
+.s1 .circle_s1-1.res{
+    animation:res ease-in-out 1.5s;
+    transform: scale(1);
+}
+
+.s1 .circle_s1-1.res.rot2{
+    animation: rot ease-in-out 3s;
+    transition-delay:3s;
+}
+
+.s1 .next{
+    position:absolute;
+    text-align:center;
+    bottom:215px;
+    left:50%;
+    margin-left:-35px;
+    width:80px;
+    height:80px;
+    border:1px solid #838383;
+    border-radius: 4em;
+    cursor: pointer;
+    color:#838383;
+    transform:scale(0);
+    transition-delay:4s;
+}
+
+.s1 .next.act{
+    animation:res2 ease-in-out 2s;
+    transform:scale(1);
+}
+
+.s1 .next.act:hover{
+    background-color:#838383;
+    color:#fff;
+    transition:ease-in-out 0.5s;
+}
+
+.next p{
+    position: relative;
+    font-size:1.5rem;
+    font-family: 'Lato', sans-serif;
+    top:50%;
+    margin-top:-12px;
 }
 
 .s1 .f_int{
     position: relative;
-    display: none;
     text-align:center;
-    font-size:2.5rem;
+    font-size: 0;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight:300;
     line-height:1.5em;
     color:#838383;
+    transition: 1s ease-in-out;
+    opacity:0;
 }
+
+.s1 .f_int.act{
+    animation:title2 ease-in-out 1.5s;
+    font-size:2.5rem;
+    opacity: 1;
+}
+
+
 
 .s1 .f_int span{
     font-weight:500;
+    /*font-size:2.75rem;*/
+    font-size:0;
+}
+
+.s1 .f_int span.act{
     font-size:2.75rem;
+    transition: 1.5s;
 }
 
 .s1 .s_int{
     width:50%;
+    display: none;
     position: relative;
     text-align:center;
-    font-size:1.5rem;
+    font-size:0;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight:300;
     line-height:1.5em;
@@ -163,11 +247,32 @@ body{
     margin-left:-25%;
 }
 
+.s1 .s_int.act{
+    animation:title3 ease-in-out 1.5s;
+    display:inline-block;
+    font-size:1.5rem;
+    opacity: 1;
+}
+
 .s1 .s_int span{
     font-weight:500;
     font-size:1.75rem;
 }
 /*-------------------------s2-------------------------------*/
+.s2 .cont1 .c_circle1{
+    position: absolute;
+    width:200px;
+    height:200px;
+    border:1px solid #838383;
+    border-radius:100%;
+    left:6%;
+    top:260px;
+    transform: scale(0);
+}
+
+.s2 .cont1 .c_circle1.act{
+    animation:c_water1 ease-in-out 1.5s;
+}
 
 .cont1 .wrap{
     /*position: relative;
@@ -219,13 +324,22 @@ body{
     cursor:pointer;
     left:10%;
     top:35%;
+    text-shadow:0 9px 5px rgba(0,0,0,0.5);
+    transform:translateY(0px);
+    animation:float 3s ease-in-out infinite;
+}
+
+.project:hover{
+    animation-play-state: paused;
 }
 
 .project h2{
     font-family: 'Lato', sans-serif;
     font-weight:700;
-    font-size:2.5rem;
+    font-size:2.5rem;   
 }
+
+
 
 .k5{
     width:100%;
@@ -288,6 +402,21 @@ body{
     background-repeat: no-repeat;
 }
 /*---------------------------------------------------------*/
+.s2 .cont2 .c_circle2{
+    position: absolute;
+    width:200px;
+    height:200px;
+    border:1px solid #838383;
+    border-radius:100%;
+    left:23.4%;
+    top:515px;
+    transform: scale(0);
+}
+
+.s2 .cont2 .c_circle2.act{
+    animation:c_water2 ease-in-out 1.5s;
+}
+
 .cont2 .wrap{
     /*position: relative;
     width:100%;
@@ -408,6 +537,21 @@ body{
     background-repeat: no-repeat;
 }
 /*---------------------------------------------------------*/
+.s2 .cont3 .c_circle3{
+    position: absolute;
+    width:200px;
+    height:200px;
+    border:1px solid #838383;
+    border-radius:100%;
+    left:50.5%;
+    top:452px;
+    transform: scale(0);
+}
+
+.s2 .cont3 .c_circle3.act{
+    animation:c_water2 ease-in-out 1.5s;
+}
+
 .cont3 .wrap{
     /*position: relative;
     width:100%;
@@ -528,6 +672,21 @@ body{
     background-repeat: no-repeat;
 }
 /*---------------------------------------------------------*/
+.s2 .cont4 .c_circle4{
+    position: absolute;
+    width:200px;
+    height:200px;
+    border:1px solid #838383;
+    border-radius:100%;
+    left:66.3%;
+    top:590px;
+    transform: scale(0);
+}
+
+.s2 .cont4 .c_circle4.act{
+    animation:c_water1 ease-in-out 1.5s;
+}
+
 .cont4 .wrap{
     /*position: relative;
     width:100%;
@@ -649,6 +808,22 @@ body{
     background-repeat: no-repeat;
 }
 /*----------------------------------------------------------*/
+.s2 .cont5 .c_circle5{
+    position: absolute;
+    width:200px;
+    height:200px;
+    border:1px solid #838383;
+    border-radius:100%;
+    left:58%;
+    top:110px;
+    transform: scale(0);
+}
+
+.s2 .cont5 .c_circle5.act{
+    animation:c_water2 ease-in-out 1.5s;
+}
+
+
 .cont5 .wrap{
     /*position: relative;
     width:100%;
@@ -771,6 +946,21 @@ body{
     background-repeat: no-repeat;
 }
 /*---------------------------------------------------------*/
+.s2 .cont6 .c_circle6{
+    position: absolute;
+    width:200px;
+    height:200px;
+    border:1px solid #838383;
+    border-radius:100%;
+    left:31.3%;
+    top:150px;
+    transform: scale(0);
+}
+
+.s2 .cont6 .c_circle6.act{
+    animation:c_water2 ease-in-out 1.5s;
+}
+
 .cont6 .wrap{
     /*position: relative;
     width:100%;
@@ -890,66 +1080,3 @@ body{
     background-repeat: no-repeat;
 }
 /*---------------------------------------------------------*/
-@keyframes water{
-    from{
-        width:0px;
-        height:0px;
-    }
-    to{
-        width:700px;
-        height:700px;
-        opacity:0;
-    }    
-}
-
-@keyframes water1{
-    from{
-        width:0px;
-        height:0px;
-    }
-    to{
-        width:300px;
-        height:300px;
-        opacity:0;
-    }
-    
-}
-
-@keyframes water2{
-    from{
-        width:0px;
-        height:0px;
-    }
-    to{
-        width:100px;
-        height:100px;
-        opacity:0;
-    }
-    
-}
-
-@keyframes water3{
-    from{
-        width:0px;
-        height:0px;
-    }
-    to{
-        width:750px;
-        height:750px;
-        opacity:0;
-    }
-    
-}
-
-@keyframes water4{
-    from{
-        width:0px;
-        height:0px;
-    }
-    to{
-        width:500px;
-        height:500px;
-        opacity:0;
-    }
-    
-}

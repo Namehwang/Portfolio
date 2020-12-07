@@ -1,31 +1,26 @@
 $(document).ready(function(){
     $('#fullpage').fullpage({
-        
-    });
+        navigation: false,
+        controlArrows: false,
+        slidesNavigation: false,
+        anchors: ['firstPage', 'secondPage', 'thirdPage', 'fourthPage', 'lastPage'],
 
-    /*$('.toggle').change(function(){
-        if(this.checked){
-            $('.menu').css("visibility", "visible");
-        }
-    });
-    $('.toggle2').change(function(){
-        if(this.checked){
-            $('.menu').css("visibility", "hidden");
-        }
-    });
-    function init(){
-        toggle();
-    }
-    function toggle(){
-        $wrap1 = $('.cont-wrap');
-        $h1 = $wrap1.find('.project');
-        $menu = $wrap1.find('.menu');
-        $cir1 = $menu.find('.div');
+	afterLoad: function(section, origin, destination, direction){
 
-        $h1.click(function(){
-            $menu.css("visibility","visible");
-        });
-    }
-    
-    init()*/
+        if(origin.index == 1){
+            console.log("Section 2 ended loading");
+            $(".s1").find(".circle_s1").addClass("res");
+            $(".s1").find(".circle_s1-1").addClass("res");
+            $(".s1").find(".f_int").addClass("act");
+            $(".s1").find(".f_int span").addClass("act");
+            $(".s1").find(".next").addClass("act");
+        }
+        if(origin.index == 2){
+            console.log("Section 3 ended loading");
+            $(".s1").find(".f_int.act").removeClass("act");
+            $(".s1").find(".f_int span.act").removeClass("act");
+		}
+
+	} 
+    });
 });

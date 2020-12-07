@@ -1,0 +1,12 @@
+$(function(){
+    $('.next').click(function(){
+        console.log('click');
+        $('.circle_s1.res').addClass('rot');
+        setTimeout(function(){
+            $('.circle_s1-1.res').addClass('rot2');
+        },1600);
+        $('.s1').find('.f_int.act').removeClass('act');
+        $('.s1').find('span.act').removeClass('act');
+        $('.s1').find('.s_int').addClass('act');
+    });
+});
