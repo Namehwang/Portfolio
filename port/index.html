@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>K5</title>
+        <link href="./css/reset.css" rel="stylesheet" />
+        <link href="./css/style.css" rel="stylesheet" />
+        <link href="./css/fullpage.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <div class="float_left">
+                <img src="images/k5_logo.png">
+            </div>
+            <nav class="float_right">
+                <ul>
+                    <li data-menuanchor="anchor1"><a href="#anchor1">K5</a></li>
+                    <li data-menuanchor="anchor2"><a href="#anchor2">Stat</a></li>
+                    <li data-menuanchor="anchor3"><a href="#anchor3">Exterior</a></li>
+                    <li data-menuanchor="anchor4"><a href="#anchor4">Interior</a></li>
+                    <li data-menuanchor="anchor5"><a href="#anchor5">Engine</a></li>                   
+                    <div class="clear"></div>
+                </ul>
+            </nav>
+        </header>
+        <div id="fullpage">
+            <div class="section s0" data-anchor="anchor1">
+                <div class="main_visual">
+                    <video id="bgvid" playsinline autoplay muted>
+                        <source src="images/k5_ad.mp4" type="video/mp4" />
+                        <source src="images/k5_ad.mp4" type="video/webm" />
+                    </video>
+                </div>
+            </div>
+            <div class="section s1" data-anchor="anchor2">
+                <div class="bg"></div>
+                <div class="stat">
+                    <ul>
+                        <li>
+                            <img src="images/cost.png" />
+                            <dl>
+                                <dt>차량가격</dt>
+                                <dd>
+                                    <h3>23,510,000</h3>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <img src="images/oil.png" />
+                            <dl>
+                                <dt>복합연비</dt>
+                                <dd>
+                                    <h3>14km/ℓ</h3>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <img src="images/co2.png" />
+                            <dl>
+                                <dt>배기량</dt>
+                                <dd>
+                                    <h3>1,999cc</h3>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <img src="images/speed.png" />
+                            <dl>
+                                <dt>최고출력 (Ps/Rpm)</dt>
+                                <dd>
+                                    <h3>160 Ph/6,500 Rpm</h3>
+                                </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <img src="images/mech.png" />
+                            <dl>
+                                <dt>무상보증기간</dt>
+                                <dd>
+                                    <h3>3년/6만Km</h3>
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+                <div class="logo">
+                    <img src="./images/k5_logo_b.png">
+                </div>
+            </div>
+            <div class="section s2" data-anchor="anchor3">
+                <div class="ext">
+                    <div class="box1">
+                        <h2>Heart Beat Lighting</h2><br />
+                        <h3>Dynamic Design</h3>
+                    </div>
+                    <div class="box2">
+                        <h2>Chrome Silhouette Moulding</h2><br />
+                        <h3>Bold Design</h3>
+                    </div>
+                    <div class="box3">
+                        <h2>Fast Back Style</h2><br />
+                        <h3>Sleek Design</h3>
+                    </div>
+                    <div class="box4"><img src="./images/k5_logo.png"></div>
+                </div>
+            </div>
+            <div class="section s3" data-anchor="anchor4">
+                <div class="bgg">
+                    <h2>미래적인 실내공간</h2>
+                    <h3>운전자를 위한 가장 진화된 실내공간</h3>
+                    <div class="built"></div>
+                    <p>빌트 인 캠</p>                   
+                </div>
+            </div>
+            <div class="section s4" data-anchor="anchor5">
+                <div id="eng">
+                    <div class="card">
+                    <div class="maincontainer">
+                        <div class="thecard">
+                            <div class="thefront"><p>Smart Stream G2.0</p></div>
+                            <div class="theback">
+                                <img src="images/stream.png" />
+                                <p>Smart Stream G2.0<br />
+                                배기량 : 1,999cc<br />
+                                최대출력 : 160hp<br />
+                                최대토크 : 20.0kg.m</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card2">
+                        <div class="maincontainer">
+                            <div class="thecard2">
+                                <div class="thefront"><p>Smart Stream T1.6</p></div>
+                                <div class="theback">
+                                    <img src="images/stream_t.png" />
+                                    <p>Smart Stream T1.6<br />
+                                    배기량 : 1,591cc<br />
+                                    최대출력 : 180hp<br />
+                                    최대토크 : 27.0kg.m</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card3">
+                            <div class="maincontainer">
+                                <div class="thecard3">
+                                    <div class="thefront"><p>Smart Stream L2.0</p></div>
+                                    <div class="theback">
+                                        <img src="images/stream_l.png" />
+                                            <p>Smart Stream L2.0<br />
+                                            배기량 : 1,999cc<br />
+                                            최대출력 : 146hp<br />
+                                        최대토크 : 19.5kg.m</p>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="./js/fullpage.min.js" type="text/javascript"></script>
+        <script>
+            new fullpage('#fullpage', {
+            //options here
+            autoScrolling:true,
+            scrollHorizontally: true,
+            anchors:['anchor1', 'anchor2', 'anchor3', 'anchor4', 'anchor5']
+            });
+        </script>
+    </body>
+</html>

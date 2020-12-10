@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/*font-family: 'Noto Sans KR', sans-serif;*/
+/*---------------------------------------*/
+html{
+    width:100%;
+    height:100%;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body{
+    margin:0;
+    width:100%;
+    height:100%;
+}
+
+header{
+    position: absolute;
+    width:100%;
+    height:5vh;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    overflow: hidden;
+    z-index:10;
+}
+
+.logo{
+    position: relative;
+    height:100%;
+    float:left;
+}
+
+.logo img{
+    position: relative;
+    width:18%;
+    padding-top:0.8em;
+    padding-left:6%;
+}
+
+.menu{
+    position: relative;
+    height:100%;
+    float:right;
+    padding-right:3%;
+}
+
+ .menu ul{
+     position: relative;
+     display:flex;
+     width:100%;
+     height:100%;
+     padding-right:-3%;
+ }
+
+ .menu ul li{
+     position: relative;
+     padding-right:2em;
+     line-height:3em;
+ }
+
+ .menu ul li:last-child{
+     padding-right:0;
+ }
+
+ .menu ul li a{
+     position: relative;
+     font-size:1.1rem;
+     text-decoration: none;
+     font-weight:500;
+     color:#fff;
+ }
+
+ /*----------------------------------------*/
+
+ .section1{
+     position: relative;
+     width:100%;
+     height:60vh;
+     background-color: #00205b;
+ }
+
+ .section1 ul{
+    position:relative;
+    display:flex;
+    width:80%;
+    height:100%;
+    left:10%;
+    list-style: none;
+ }
+
+ .section1 ul li:first-child{
+     position: relative;
+     width:40%;
+     height:100%;
+ }
+
+ .section1 ul li:first-child h2{
+     position: relative;
+     font-size:5rem;
+     color:#fff;
+     padding-top:1em;
+ }
+
+ .section1 ul li:first-child h3{
+     position: relative;
+     font-size:1.5rem;
+     font-weight:500;
+     color:#fff;
+     padding-top:1em;
+ }
+
+ .section1 ul li:first-child p{
+     position: relative;
+     font-size:0.9rem;
+     color:#fff;
+     font-weight:300;
+     line-height:2em;
+     padding-top:3em;
+ }
+
+ .section1 ul li:last-child{
+     position: relative;
+     width:60%;
+     height:100%;
+ }
+
+ .section1 ul li:last-child img{
+     position: relative;
+     width:600px;
+     left:50%;
+     top:50%;
+     margin-left:-300px;
+     margin-top:-205px;
+ }
+
+/*----------------------------------------*/
+
+ .section2{
+     position: relative;
+     width:100%;
+     height:30vh;
+     background-color: #00205b;
+ }
+
+ .section2 ul{
+     position: relative;
+     width:80%;
+     height:100%;
+     list-style: none;
+     display:flex;
+     padding-left:6%;
+ }
+
+ .section2 ul li{
+     position: relative;
+     width:50%;
+ }
+
+ .section2 ul li img{
+     position: relative;
+     width:550px;
+     padding-top:2em;
+     left:50%;
+     margin-left:-270px;
+ }
+
+
+ 
+
+ /*----------------------------------------*/
+
+ .section3{
+     position: relative;
+     width:100%;
+     height:22vh;
+     background-color: #00205b;
+     border-top:3px solid #fff;
+ }
+
+ .section3 .stat{
+     position: relative;
+     width:80%;
+     height:100%;
+     display: flex;
+     font-size:1.2rem;
+     font-weight:700;
+     color:#fff;
+     padding-left:15%;
+ } 
+
+ .section3 table{
+     position: relative;
+     width:100%;
+     height:80%;
+ }
+
+ .stat .left{
+     position: relative;
+     width:50%;
+     line-height:3em;
+     top:12px;
+ }
+
+ .left th{
+     position: relative;
+     text-align:left;
+ }
+
+ .stat .right{
+    position: relative;
+    width:50%;
+    line-height:3em;
+    top:12px;
+}
+
+.right th{
+    position: relative;
+    text-align:left;
+}
+
+ 
+
+  /*----------------------------------------*/
+
+  .section4{
+    position: relative;
+    width:100%;
+    height:65vh;
+}
+
+    .section4 .info{
+        position: relative;
+        width:80%;
+        height:100%;
+        display:flex;
+        padding-left:10%;
+    }
+
+    .section4 .info div{
+        position: relative;
+        width:33.333333%;
+        text-align:left;
+    }
+
+    .section4 .info div h3{
+        position: relative;
+        text-align:center;
+        font-size:1.2rem;
+        padding-top:2em;
+    }
+
+    .section4 .info div table{
+        position: relative;
+        width:99%;
+        height:80%;
+        background-color:rgba(142, 204, 255, 0.3);
+        font-size:1.1rem;
+        top:2em;
+        border-right:1px solid #fff;
+    }
+
+    .section4 .info div table tbody{
+        position: relative;
+        height:100%;
+        text-align:center;
+    }
+
+    .section4 .info div table tbody tr th{
+        position: relative;
+        padding-left:1em;
+        line-height:1em;
+        text-align:center;
+        border-right:1px solid #fff;
+    }
+    
+    .section4 .info div table tbody tr td{
+        border-right:1px solid #fff;
+    }
+    
+
+
+ /*----------------------------------------*/
+
+  .section5{
+      position: relative;
+      width:100%;
+      height:28vh;
+      background-color:#00205b;
+  }
+
+  .section5 h3{
+    position: relative;
+    text-align:center;
+    font-size:1.25rem;
+    font-weight:500;
+    padding-top:1.8em;
+    color:#fff;
+  }
+
+  .section5 .sns{
+      position:relative;
+      width:90%;
+      padding-left:7%;
+      padding-top:2.5em;
+  }
+
+  .section5 .sns ul{
+      position: relative;
+      width:100%;
+      height:100%;
+      display:flex;
+      list-style: none;
+  }
+
+  .sns ul li{
+      position: relative;
+      width:20%;
+      display:flex;
+  }
+
+  .sns ul li img{
+      position: relative;
+      width:6%;
+      padding-left:1.2em;
+  }
+
+  .sns ul li h4{
+      position: relative;
+      font-size:0.8rem;
+      font-weight:300;
+      color:#fff;
+      line-height:2em;
+      padding-left:0.6em;
+  }
+
+  .section5 .copyright{
+      position: relative;
+      width:100%;
+      text-align:center;
+      padding-top:4.5em;
+  }
+
+  .copyright p{
+      position: relative;
+      color:#fff;
+      font-size:1rem;
+      font-weight:300;
+  }

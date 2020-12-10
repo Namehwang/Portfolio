@@ -1,0 +1,1129 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+/*font-family: 'Noto Sans KR', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+/*font-family: 'Lato', sans-serif;*/
+
+/*---------------------------------------------------------------------*/
+
+html{
+    width:100%;
+    height:100%;
+}
+
+body{
+    margin:0;
+    width:100%;
+    height:100%;
+}
+
+.section{
+    width:100%;
+    height:100vh;
+}
+
+.s0{
+    background-color: black;
+    height:100vh;
+}
+
+.s0 .circle{
+    position:absolute;
+    width:0;
+    height:0;
+    border:1px solid #fff;
+    margin:auto;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    border-radius:100%;
+    animation:water 2.5s ease-in-out;
+}
+
+.s0 .circle1{
+    position:absolute;
+    width:0px;
+    height:0px;
+    border:1px solid #fff;
+    margin:auto;
+    left:600px;
+    right:0;
+    top:-350px;
+    bottom:0;
+    border-radius:100%;
+    animation:water1 2.5s infinite 2s;
+    animation-delay: 1.8s;
+}
+
+.s0 .circle2{
+    position:absolute;
+    width:0;
+    height:0;
+    border:1px solid #fff;
+    margin:auto;
+    left:0;
+    right:650px;
+    top:250px;
+    bottom:0;
+    border-radius:100%;
+    animation:water2 2.5s infinite 2s;
+    animation-delay: 2.3s;
+}
+
+.s0 .circle3{
+    position:absolute;
+    width:0;
+    height:0;
+    border:1px solid #fff;
+    margin:auto;
+    left:-1300px;
+    right:0;
+    top:-400px;
+    bottom:0;
+    border-radius:100%;
+    animation:water3 2.8s infinite;
+    animation-delay: 2.6s;
+}
+
+.s0 .circle4{
+    position:absolute;
+    width:0;
+    height:0;
+    border:1px solid #fff;
+    margin:auto;
+    left:900px;
+    right:0;
+    top:500px;
+    bottom:0;
+    border-radius:100%;
+    animation:water4 2.8s infinite;
+    animation-delay: 3s;
+}
+
+.s0 h2{
+    position: relative;
+    color:#fff;
+    text-align: center;
+    font-size:6.1875rem;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.05em;
+    animation:title 2.5s ease-in-out;
+}
+
+.s0 h2 span{
+    font-size:9.6875rem;
+    font-weight: 500;
+}
+
+.s0 h2 span:hover{
+    color:red;
+}
+/*------------------------------------------------------*/
+.s1{
+    background-color: rgb(221, 221, 221);
+}
+
+.s1 .circle_s1{
+    position: absolute;
+    width:600px;
+    height:600px;
+    border:1px solid #838383;
+    border-radius:100%;
+    left:50%;
+    margin-left:-300px;
+    bottom:17%;
+    transform: scale(0);
+}
+
+.s1 .circle_s1.res{
+    animation:res ease-in-out 1.5s;
+    transform: scale(1);
+}
+
+.s1 .circle_s1.res.rot{
+    animation: rot ease-in-out 3s;
+}
+
+.s1 .circle_s1-1{
+    position: absolute;
+    width:600px;
+    height:600px;
+    border:1px solid #838383;
+    border-radius:100%;
+    left:50%;
+    margin-left:-300px;
+    bottom:17%;
+    transform: scale(0);
+}
+
+.s1 .circle_s1-1.res{
+    animation:res ease-in-out 1.5s;
+    transform: scale(1);
+}
+
+.s1 .circle_s1-1.res.rot2{
+    animation: rot ease-in-out 3s;
+    transition-delay:3s;
+}
+
+.s1 .next{
+    position:absolute;
+    text-align:center;
+    bottom:215px;
+    left:50%;
+    margin-left:-35px;
+    width:80px;
+    height:80px;
+    border:1px solid #838383;
+    border-radius: 4em;
+    cursor: pointer;
+    color:#838383;
+    transform:scale(0);
+    transition-delay:4s;
+}
+
+.s1 .next.act{
+    animation:res2 ease-in-out 2s;
+    transform:scale(1);
+}
+
+.s1 .next.act:hover{
+    background-color:#838383;
+    color:#fff;
+    transition:ease-in-out 0.5s;
+}
+
+.next p{
+    position: relative;
+    font-size:1.5rem;
+    font-family: 'Lato', sans-serif;
+    top:50%;
+    margin-top:-12px;
+}
+
+.s1 .f_int{
+    position: relative;
+    text-align:center;
+    font-size: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:300;
+    line-height:1.5em;
+    color:#838383;
+    transition: 1s ease-in-out;
+    opacity:0;
+}
+
+.s1 .f_int.act{
+    animation:title2 ease-in-out 1.5s;
+    font-size:2.5rem;
+    opacity: 1;
+}
+
+
+
+.s1 .f_int span{
+    font-weight:500;
+    /*font-size:2.75rem;*/
+    font-size:0;
+}
+
+.s1 .f_int span.act{
+    font-size:2.75rem;
+    transition: 1.5s;
+}
+
+.s1 .s_int{
+    width:50%;
+    display: none;
+    position: relative;
+    text-align:center;
+    font-size:0;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:300;
+    line-height:1.5em;
+    color:#838383;
+    left:50%;
+    margin-left:-25%;
+}
+
+.s1 .s_int.act{
+    animation:title3 ease-in-out 1.5s;
+    display:inline-block;
+    font-size:1.5rem;
+    opacity: 1;
+}
+
+.s1 .s_int span{
+    font-weight:500;
+    font-size:1.75rem;
+}
+/*-------------------------s2-------------------------------*/
+.s2 .cont1 .c_circle1{
+    position: absolute;
+    width:200px;
+    height:200px;
+    border:1px solid #838383;
+    border-radius:100%;
+    left:6%;
+    top:260px;
+    transform: scale(0);
+}
+
+.s2 .cont1 .c_circle1.act{
+    animation:c_water1 ease-in-out 1.5s;
+}
+
+.cont1 .wrap{
+    /*position: relative;
+    width:100%;
+    height:100vh;*/
+    position:fixed;
+    top:200%;
+    background:#000;
+    display:flex;
+    list-style:none;
+    width:100%;
+    height:100vh;
+    justify-content: space-around;
+    align-items: center;
+    margin-left:auto;
+    clip-path:circle(0px at 11.5% 37%);
+    -webkit-clip-path:circle(0px at 11.5% 37%);
+    transition:all 1s ease-out;
+    z-index:5;
+}
+
+.cont1 .wrap.open{
+    clip-path:circle(2000px at 11.5% 37%);
+    -webkit-clip-path:circle(2000px at 11.5% 37%);
+}
+
+.cont1 .wrap.close{
+    clip-path:circle(0px at 11.5% 37%);
+    -webkit-clip-path:circle(0px at 11.5% 37%);
+}
+
+.wrap .close{
+    position:absolute;
+    z-index:2;
+    top:30px;
+    right:30px;
+    cursor:pointer;
+}
+
+.wrap .close h2{
+    font-family: 'Lato', sans-serif;
+    font-weight:700;
+    font-size:1.5rem;
+    color:#fff;
+}
+
+.project{
+    position:absolute;
+    cursor:pointer;
+    left:10%;
+    top:35%;
+    text-shadow:0 9px 5px rgba(0,0,0,0.5);
+    transform:translateY(0px);
+    animation:float 3s ease-in-out infinite;
+}
+
+.project:hover{
+    animation-play-state: paused;
+}
+
+.project h2{
+    font-family: 'Lato', sans-serif;
+    font-weight:700;
+    font-size:2.5rem;   
+}
+
+
+
+.k5{
+    width:100%;
+    height:100vh;
+    color:#fff;
+}
+
+.k5 h3{
+    position: relative;
+    width:30%;
+    font-family: 'Lato', sans-serif;
+    font-weight:900;
+    font-size:3.5rem;
+    top:120px;
+    left:80px;
+}
+
+.k5 ul{
+    position: relative;
+    display: flex;
+    list-style: none;
+    width:94%;
+    height:50%;
+    left:3%;
+    right:3%;
+    top:22%;
+}
+
+.k5 ul li:first-child{
+    position: relative;
+    width:35%;
+}
+
+.k5 ul li:first-child p{
+    position: relative;
+    top:25%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:1.3rem;
+    letter-spacing: 0.1em;
+    line-height: 2.1em;
+    font-weight: 300;
+}
+
+.k5 ul li:first-child span{
+    position: relative;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:1.6rem;
+    letter-spacing: 0.1em;
+    font-weight:700;
+    top:36%;
+    color:red;
+}
+
+.k5 ul li:last-child{
+    position: relative;
+    width:65%;
+    background-image: url('../images/k5.jpg');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+/*---------------------------------------------------------*/
+.s2 .cont2 .c_circle2{
+    position: absolute;
+    width:200px;
+    height:200px;
+    border:1px solid #838383;
+    border-radius:100%;
+    left:23.4%;
+    top:515px;
+    transform: scale(0);
+}
+
+.s2 .cont2 .c_circle2.act{
+    animation:c_water2 ease-in-out 1.5s;
+}
+
+.cont2 .wrap{
+    /*position: relative;
+    width:100%;
+    height:100vh;*/
+    position:fixed;
+    top:200%;
+    background:#000;
+    display:flex;
+    list-style:none;
+    width:100%;
+    height:100vh;
+    justify-content: space-around;
+    align-items: center;
+    margin-left:auto;
+    clip-path:circle(0px at 29% 64.5%);
+    -webkit-clip-path:circle(0px at 29% 64.5%);
+    transition:all 1s ease-out;
+    z-index:5;
+}
+
+.cont2 .wrap.open{
+    clip-path:circle(2000px at 29% 64.5%);
+    -webkit-clip-path:circle(2000px at 29% 64.5%);
+}
+
+.cont2 .wrap.close{
+    clip-path:circle(0px at 29% 64.5%);
+    -webkit-clip-path:circle(0px at 29% 64.5%);
+}
+
+.wrap .close{
+    position:absolute;
+    z-index:2;
+    top:30px;
+    right:30px;
+    cursor:pointer;
+}
+
+.wrap .close h2{
+    font-family: 'Lato', sans-serif;
+    font-weight:700;
+    font-size:1.5rem;
+    color:#fff;
+}
+
+.cont2 .project{
+    position:absolute;
+    cursor:pointer;
+    left:25%;
+    top:62%;
+}
+
+.cont2 .project h2{
+    font-family: 'Lato', sans-serif;
+    font-weight:700;
+    font-size:2.5rem;
+    z-index:-2;
+}
+
+.bpm85{
+    width:100%;
+    height:100vh;
+    color:#fff;
+}
+
+.bpm85 h3{
+    position: relative;
+    width:30%;
+    font-family: 'Lato', sans-serif;
+    font-weight:900;
+    font-size:3.5rem;
+    top:120px;
+    left:80px;
+}
+
+.bpm85 ul{
+    position: relative;
+    display: flex;
+    list-style: none;
+    width:94%;
+    height:50%;
+    left:3%;
+    right:3%;
+    top:22%;
+}
+
+.bpm85 ul li:first-child{
+    position: relative;
+    width:35%;
+}
+
+.bpm85 ul li:first-child p{
+    position: relative;
+    top:12%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:1.3rem;
+    letter-spacing: 0.1em;
+    line-height: 2.1em;
+    font-weight: 300;
+}
+
+.bpm85 ul li:first-child span{
+    position: relative;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:1.6rem;
+    letter-spacing: 0.1em;
+    font-weight:700;
+    top:26%;
+    color:red;
+}
+
+.bpm85 ul li:last-child{
+    position: relative;
+    width:65%;
+    background-image: url('../images/bpm.jpg');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+/*---------------------------------------------------------*/
+.s2 .cont3 .c_circle3{
+    position: absolute;
+    width:200px;
+    height:200px;
+    border:1px solid #838383;
+    border-radius:100%;
+    left:50.5%;
+    top:452px;
+    transform: scale(0);
+}
+
+.s2 .cont3 .c_circle3.act{
+    animation:c_water2 ease-in-out 1.5s;
+}
+
+.cont3 .wrap{
+    /*position: relative;
+    width:100%;
+    height:100vh;*/
+    position:fixed;
+    top:200%;
+    background:#000;
+    display:flex;
+    list-style:none;
+    width:100%;
+    height:100vh;
+    justify-content: space-around;
+    align-items: center;
+    margin-left:auto;
+    clip-path:circle(0px at 56.5% 57%);
+    -webkit-clip-path:circle(0px at 56.5% 57%);
+    transition:all 1s ease-out;
+    z-index:5;
+}
+
+.cont3 .wrap.open{
+    clip-path:circle(2000px at 56.5% 57%);
+    -webkit-clip-path:circle(2000px at 56.5% 57%);
+}
+
+.cont3 .wrap.close{
+    clip-path:circle(0px at 56.5% 57%);
+    -webkit-clip-path:circle(0px at 56.5% 57%);
+}
+
+.wrap .close{
+    position:absolute;
+    z-index:2;
+    top:30px;
+    right:30px;
+    cursor:pointer;
+}
+
+.wrap .close h2{
+    font-family: 'Lato', sans-serif;
+    font-weight:700;
+    font-size:1.5rem;
+    color:#fff;
+}
+
+.cont3 .project{
+    position:absolute;
+    cursor:pointer;
+    left:52%;
+    top:55%;    
+}
+
+.cont3 .project h2{
+    font-family: 'Lato', sans-serif;
+    font-weight:700;
+    font-size:2.5rem;
+    z-index:-4;
+}
+
+.airbus{
+    width:100%;
+    height:100vh;
+    color:#fff;
+}
+
+.airbus h3{
+    position: relative;
+    width:30%;
+    font-family: 'Lato', sans-serif;
+    font-weight:900;
+    font-size:3.5rem;
+    top:120px;
+    left:80px;
+}
+
+.airbus ul{
+    position: relative;
+    display: flex;
+    list-style: none;
+    width:94%;
+    height:50%;
+    left:3%;
+    right:3%;
+    top:22%;
+}
+
+.airbus ul li:first-child{
+    position: relative;
+    width:35%;
+}
+
+.airbus ul li:first-child p{
+    position: relative;
+    top:16%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:1.3rem;
+    letter-spacing: 0.1em;
+    line-height: 2.1em;
+    font-weight: 300;
+}
+
+.airbus ul li:first-child span{
+    position: relative;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:1.6rem;
+    letter-spacing: 0.1em;
+    font-weight:700;
+    top:27%;
+    color:red;
+}
+
+.airbus ul li:last-child{
+    position: relative;
+    width:65%;
+    background-image: url('../images/airbus.jpg');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+/*---------------------------------------------------------*/
+.s2 .cont4 .c_circle4{
+    position: absolute;
+    width:200px;
+    height:200px;
+    border:1px solid #838383;
+    border-radius:100%;
+    left:66.3%;
+    top:590px;
+    transform: scale(0);
+}
+
+.s2 .cont4 .c_circle4.act{
+    animation:c_water1 ease-in-out 1.5s;
+}
+
+.cont4 .wrap{
+    /*position: relative;
+    width:100%;
+    height:100vh;*/
+    position:fixed;
+    top:200%;
+    background:#000;
+    display:flex;
+    list-style:none;
+    width:100%;
+    height:100vh;
+    justify-content: space-around;
+    align-items: center;
+    margin-left:auto;
+    clip-path:circle(0px at 72% 72%);
+    -webkit-clip-path:circle(0px at 72% 72%);
+    transition:all 1s ease-out;
+    z-index:5;
+}
+
+.cont4 .wrap.open{
+    clip-path:circle(2000px at 72% 72%);
+    -webkit-clip-path:circle(2000px at 72% 72%);
+}
+
+.cont4 .wrap.close{
+    clip-path:circle(0px at 72% 72%);
+    -webkit-clip-path:circle(0px at 72% 72%);
+}
+
+.wrap .close{
+    position:absolute;
+    z-index:2;
+    top:30px;
+    right:30px;
+    cursor:pointer;
+}
+
+.wrap .close h2{
+    font-family: 'Lato', sans-serif;
+    font-weight:700;
+    font-size:1.5rem;
+    color:#fff;
+}
+
+.cont4 .project{
+    position:absolute;
+    cursor:pointer;
+    left:70%;
+    top:70%;
+    
+}
+
+.cont4 .project h2{
+    font-family: 'Lato', sans-serif;
+    font-weight:700;
+    font-size:2.5rem;
+    z-index:-4;
+}
+
+.m4{
+    width:100%;
+    height:100vh;
+    color:#fff;
+}
+
+.m4 h3{
+    position: relative;
+    width:30%;
+    font-family: 'Lato', sans-serif;
+    font-weight:900;
+    font-size:3.5rem;
+    top:120px;
+    left:80px;
+}
+
+.m4 ul{
+    position: relative;
+    display: flex;
+    list-style: none;
+    width:94%;
+    height:50%;
+    left:3%;
+    right:3%;
+    top:22%;
+}
+
+.m4 ul li:first-child{
+    position: relative;
+    width:35%;
+}
+
+.m4 ul li:first-child p{
+    position: relative;
+    top:20%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:1.3rem;
+    letter-spacing: 0.1em;
+    line-height: 2.1em;
+    font-weight: 300;
+}
+
+.m4 ul li:first-child span{
+    position: relative;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:1.6rem;
+    letter-spacing: 0.1em;
+    font-weight:700;
+    top:32%;
+    color:red;
+}
+
+.m4 ul li:last-child{
+    position: relative;
+    width:65%;
+    background-image: url('../images/m4.jpg');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+/*----------------------------------------------------------*/
+.s2 .cont5 .c_circle5{
+    position: absolute;
+    width:200px;
+    height:200px;
+    border:1px solid #838383;
+    border-radius:100%;
+    left:58%;
+    top:110px;
+    transform: scale(0);
+}
+
+.s2 .cont5 .c_circle5.act{
+    animation:c_water2 ease-in-out 1.5s;
+}
+
+
+.cont5 .wrap{
+    /*position: relative;
+    width:100%;
+    height:100vh;*/
+    position:fixed;
+    top:200%;
+    background:#000;
+    display:flex;
+    list-style:none;
+    width:100%;
+    height:100vh;
+    justify-content: space-around;
+    align-items: center;
+    margin-left:auto;
+    clip-path:circle(0px at 65% 22.2%);
+    -webkit-clip-path:circle(0px at 65% 22.2%);
+    transition:all 1s ease-out;
+    z-index:5;
+}
+
+.cont5 .wrap.open{
+    clip-path:circle(2000px at 65% 22.2%);
+    -webkit-clip-path:circle(2000px at 65% 22.2%);
+}
+
+.cont5 .wrap.close{
+    clip-path:circle(0px at 65% 22.2%);
+    -webkit-clip-path:circle(0px at 65% 22.2%);
+}
+
+.wrap .close{
+    position:absolute;
+    z-index:2;
+    top:30px;
+    right:30px;
+    cursor:pointer;
+}
+
+.wrap .close h2{
+    font-family: 'Lato', sans-serif;
+    font-weight:700;
+    font-size:1.5rem;
+    color:#fff;
+}
+
+.cont5 .project{
+    position:absolute;
+    cursor:pointer;
+    left:60%;
+    top:20%;
+    
+}
+
+.cont5 .project h2{
+    font-family: 'Lato', sans-serif;
+    font-weight:700;
+    font-size:2.5rem;
+    z-index:-4;
+}
+
+.poom{
+    width:100%;
+    height:100vh;
+    color:#fff;
+}
+
+.poom h3{
+    position: relative;
+    width:30%;
+    font-family: 'Lato', sans-serif;
+    font-weight:900;
+    font-size:3.5rem;
+    top:120px;
+    left:80px;
+}
+
+.poom ul{
+    position: relative;
+    display: flex;
+    list-style: none;
+    width:94%;
+    height:50%;
+    left:3%;
+    right:3%;
+    top:22%;
+}
+
+.poom ul li:first-child{
+    position: relative;
+    width:35%;
+}
+
+.poom ul li:first-child p{
+    position: relative;
+    top:8%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:1.3rem;
+    letter-spacing: 0.1em;
+    line-height: 2.1em;
+    font-weight: 300;
+}
+
+.poom ul li:first-child span{
+    position: relative;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size:1.6rem;
+    letter-spacing: 0.1em;
+    line-height:1.5em;
+    font-weight:700;
+    top:18%;
+    color:red;
+}
+
+.poom ul li:last-child{
+    position: relative;
+    width:65%;
+    background-image: url('../images/poom.jpg');
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+/*---------------------------------------------------------*/
+.s2 .cont6 .c_circle6{
+    position: absolute;
+    width:200px;
+    height:200px;
+    border:1px solid #838383;
+    border-radius:100%;
+    left:31.3%;
+    top:150px;
+    transform: scale(0);
+}
+
+.s2 .cont6 .c_circle6.act{
+    animation:c_water2 ease-in-out 1.5s;
+}
+
+.cont6 .wrap{
+    /*position: relative;
+    width:100%;
+    height:100vh;*/
+    position:fixed;
+    top:200%;
+    background:#000;
+    display:flex;
+    list-style:none;
+    width:100%;
+    height:100vh;
+    justify-content: space-around;
+    align-items: center;
+    margin-left:auto;
+    clip-path:circle(0px at 38% 26%);
+    -webkit-clip-path:circle(0px at 38% 26%);
+    transition:all 1s ease-out;
+    z-index:5;
+}
+
+.cont6 .wrap.open{
+    clip-path:circle(2000px at 38% 26%);
+    -webkit-clip-path:circle(2000px at 38% 26%);
+}
+
+.cont6 .wrap.close{
+    clip-path:circle(0px at 38% 26%);
+    -webkit-clip-path:circle(0px at 38% 26%);
+}
+
+.wrap .close{
+    position:absolute;
+    z-index:2;
+    top:30px;
+    right:30px;
+    cursor:pointer;
+}
+
+.wrap .close h2{
+    font-family: 'Lato', sans-serif;
+    font-weight:700;
+    font-size:1.5rem;
+    color:#fff;
+}
+
+.cont6 .project{
+    position:absolute;
+    cursor:pointer;
+    left:33%;
+    top:24%;
+}
+
+.cont6 .project h2{
+    font-family: 'Lato', sans-serif;
+    font-weight:700;
+    font-size:2.5rem;
+}
+
+.about{
+    width:100%;
+    height:100vh;
+    color:#fff;
+}
+
+.about .a_title{
+    position: relative;
+    width:30%;
+    font-family: 'Lato', sans-serif;
+    font-weight:900;
+    font-size:3.5rem;
+    top:120px;
+    left:80px;
+}
+
+.about ul{
+    position: relative;
+    list-style: none;
+    width:94%;
+    height:50%;
+    left:3%;
+    right:3%;
+    top:22%;
+}
+
+.about ul li:first-child{
+    position: relative;
+    width:40%;
+}
+
+.about ul li:first-child .t_title{
+    position: relative;
+    font-size:1.4rem;
+    text-align:center;
+}
+
+.about ul li:first-child ul{
+    position: relative;
+    width:100%;
+}
+
+.about ul li:first-child ul li:first-child img{
+    position: relative;
+    width:50%;
+}
+
+
+/*---------------------------------------------------------*/
+.s3 .profile_img{
+    position: relative;
+    top:-10%;
+    left:39.8%;
+    
+}
+
+
+.s3 .profile_img img{
+    width:20%;
+    clip-path:circle(150px at center);
+    -webkit-clip-path:circle(150px at center);
+}
+
+.s3 h3{
+    position: relative;
+    top:-15%;
+    text-align:center;
+    font-size:1.5625rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    color:#838383;
+    font-weight:500;
+}
+
+.s3 .contact{
+    position: relative;
+    width:40%;
+    top:-6%;
+}
+
+.contact ul{
+    position: relative;
+    list-style: none;
+    left:50%;
+}
+
+.contact ul li ul{
+    position: relative;
+    display:flex;
+}
+
+.contact ul li ul li:first-child{
+    position:relative;
+    width:20%;
+}
+
+.contact ul li ul li:first-child img{
+    position: relative;
+    width:45%;
+    padding-top:1em;
+}
+
+.contact ul li ul li:last-child{
+    position:relative;
+    width:80%;
+    font-family: 'Lato', sans-serif;
+    font-size:1.2rem;
+    line-height:4.2em;
+}

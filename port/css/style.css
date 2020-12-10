@@ -1,0 +1,408 @@
+html{
+    width:100%;
+    height:100%;
+}
+
+body{
+    margin:0;
+    width:100%;
+    height:100%;
+}
+
+.section{
+    width:100%;
+    height:100vh;
+    background-color: #000;
+}
+/*----header----*/
+header{
+    position: absolute;;
+    width:100%;
+    height:7vh;
+    background-color: black;
+    color: white;
+    padding: 2px 20px; /*상하 좌우*/
+    overflow: hidden;
+    z-index:10;
+    border-bottom:1px solid #fff;
+}
+
+.float_left{
+    position: relative;
+    height:100%;
+    float:left;
+}
+
+.float_left img{
+    position: relative;
+    width:25%;
+    top:50%;
+    margin-top:-16px;
+}
+
+.float_right{
+    float:right;
+}
+
+.float_right ul{
+    position: relative;
+    display:flex;
+    list-style:none;
+    width:100%;
+    height:100%;
+    left:-20%;
+}
+
+.float_right ul li{
+    position: relative;
+    padding:22px 10px;
+}
+
+.float_right ul li a{
+    font-size:1.2rem;
+    text-decoration: none;
+    color:#fff;
+}
+
+/*-----section s0----*/
+.main_visual{
+    position: relative;
+    width:100%;
+    height:100%;
+}
+
+#bgvid{
+    position: relative;
+    width:100%;
+    height:100%;
+}
+/*-----section s1----*/
+
+.bg{
+    position: relative;
+    width:100%;
+    height:100%;
+    background-image: url("../images/k5-5.jpg");
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.stat{
+    position: absolute;
+    top:0;
+    width:100%;
+    height:100%;
+}
+
+.stat ul{
+    position: relative;
+    display:flex;
+    top:73%;
+    width:65%;
+    height:15%;
+    list-style: none;
+    background-color:rgba(0,0,0,0.4);
+    left:16%;
+}
+
+.stat ul li{
+    position: relative;
+    width:20%;
+    text-align: center;
+    border-right:1px solid #fff;
+    color:#fff;
+}
+
+.stat ul li:last-child{
+    border-right:0;
+}
+
+.stat ul li img{
+    position: relative;
+    padding-top:1em;
+}
+
+.stat ul li dl{
+    position: relative;
+    padding-top:1em;
+}
+
+.stat ul li dl dd{
+    position: relative;
+    padding-top:0.5em;
+}
+
+.logo{
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0;
+}
+
+.logo img{
+    position: relative;
+    width:20%;
+    padding-top:8%;
+    padding-left:70%;
+}
+
+/*-----section s2----*/
+.s2{
+    background-color:#000;
+    width:100%;
+    height:100vh;
+}
+
+.ext div{
+    float:right;
+    width:25%;
+    height:100vh;
+    color:#fff;
+    transition: 0.5s ease-in-out;
+}
+
+.ext .box1:hover{
+    width:40%;
+    height:100vh;   
+}
+
+.ext .box2:hover{
+    width:40%;
+    height:100vh;   
+}
+
+.ext .box3:hover{
+    width:40%;
+    height:100vh;   
+}
+
+.ext .box4 img{
+    position:relative;
+    width:100%;
+    padding-top:50vh;
+}
+
+.ext .box3{
+    background-image:url("../images/rr.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    text-align:center;
+}
+
+.ext .box3 h2{
+    position: relative;;
+    top:80vh;
+    font-size:1.8rem;
+}
+
+.ext .box3 h3{
+    position: relative;;
+    top:85vh;
+    font-size:1.2rem;
+    font-weight:300;
+}
+
+.ext .box2{
+    background-image:url("../images/bt.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    text-align:center;
+}
+
+.ext .box2 h2{
+    position: relative;;
+    top:80vh;
+    font-size:1.8rem;
+}
+
+.ext .box2 h3{
+    position: relative;;
+    top:85vh;
+    font-size:1.2rem;
+    font-weight:300;
+}
+
+.ext .box1{
+    background-image:url("../images/fr.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    text-align:center;
+}
+
+.ext .box1 h2{
+    position: relative;;
+    top:80vh;
+    font-size:1.8rem;
+}
+
+.ext .box1 h3{
+    position: relative;;
+    top:85vh;
+    font-size:1.2rem;
+    font-weight:300;
+}
+/*-----section s3----*/
+.bgg{
+    position: relative;
+    width:100%;
+    height:100vh;
+    background-image: url("../images/int.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.bgg h2{
+    position: relative;
+    font-size:2.5rem;
+    color:#fff;
+    padding-top:12%;
+    padding-left:70%;
+}
+
+.bgg h3{
+    position: relative;
+    font-size:1.5rem;
+    color:#fff;
+    padding-top:1em;
+    padding-left:70%;
+    font-weight:500;
+}
+
+.bgg .built{
+    position: relative;
+    left:70%;
+    margin-top:70px;
+    width:20%;
+    height:20vh;
+    background-image: url("../images/built.jpg");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    border:1px solid #fff;
+}
+
+.bgg p{
+    position: relative;
+    left:70%;
+    margin-top:30px;
+    color:#fff;
+    font-size:1.3rem;
+}
+/*-----section s4----*/
+.eng{
+    position: relative;
+    width:100%;
+    height:100vh;
+}
+
+.card{
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+.maincontainer{
+    position: relative;
+    width: 280px;
+    height: 400px;
+}
+
+.thecard{
+    border: solid 1px #fff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    font-weight: bold;
+}
+
+.thecard:hover{
+    transform: rotateY(180deg);
+}
+
+.thefront{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #000;
+    color:#fff;
+    text-align: center;
+}
+
+.thefront p{
+    position: relative;
+    font-size: 1.25rem;
+    text-align: center;
+    top:50%;
+}
+
+.theback{ 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background: #000;
+    color:#fff;
+    transform: rotateY(180deg);
+}
+
+.theback p{
+    position: relative;;
+    width: 100%;
+    font-size: 1rem;
+    margin-top: 60px;
+    text-align:center;
+    line-height:1.5em;
+}
+
+.theback img{
+    position: relative;
+    left:50%;
+    margin-left:-85px;
+    margin-top: 20px;
+    width: 60%;
+}
+
+.card2{
+    margin-left: 40%;
+    margin-top: -26.4%;
+}
+
+.thecard2:hover{
+    transform: rotateY(180deg);
+}
+
+.thecard2{
+    border: solid 1px #fff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    font-weight: bold;
+}
+
+.card3{
+    margin-left: 60%;
+    margin-top: -26.4%;
+}
+
+.thecard3:hover{
+    transform: rotateY(180deg);
+}
+
+.thecard3{
+    border: solid 1px #fff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    font-weight: bold;
+}

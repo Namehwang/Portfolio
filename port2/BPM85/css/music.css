@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    background-color: #000;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 6px;
+    width: 300px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    text-align: center;
+    
+}
+.wrapper{
+    position: relative;
+}
+.container img{
+    width: 80%;
+   
+}
+.container h1{
+    font-size: 20px;
+    margin: 15px 0 15px 0;
+    color:#fff;
+    font-weight:500;
+    padding:10px 0;
+}
+.buttons{
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+.buttons button{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    padding: 16px;
+    border-radius: 90px;
+    border:1px solid #fff;
+    text-align: left;
+    margin: 10px 9px;
+    border: none;
+}
+.buttons button:active{
+    box-shadow: inset 2px 2px 5px #A2B1C6;
+}
+.buttons button img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    width: 42%;
+    height: 42%;
+}
+
+.level{
+    width: 80%;
+    -webkit-appearance: none;
+    appearance: none;
+    border:1px solid #fff;;
+    border-radius: 50px;
+    margin: 12px 0;
+}
+.level::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    background-color: #000;
+    border: 1px solid #fff;
+    width: 15px; /* Set a specific slider handle width */
+    height: 15px; /* Slider handle height */
+    border-radius: 90px;
+}
+.level::-moz-range-thumb{
+    width: 50px;
+    height: 50px;
+}

@@ -259,6 +259,10 @@ body{
     font-size:1.75rem;
 }
 /*-------------------------s2-------------------------------*/
+.s2 a{
+    text-decoration: none;
+    color:red;
+}
 .s2 .cont1 .c_circle1{
     position: absolute;
     width:200px;
@@ -409,7 +413,7 @@ body{
     border:1px solid #838383;
     border-radius:100%;
     left:23.4%;
-    top:515px;
+    top:562px;
     transform: scale(0);
 }
 
@@ -432,19 +436,19 @@ body{
     align-items: center;
     margin-left:auto;
     clip-path:circle(0px at 29% 64.5%);
-    -webkit-clip-path:circle(0px at 29% 64.5%);
+    -webkit-clip-path:circle(0px at 29% 69%);
     transition:all 1s ease-out;
     z-index:5;
 }
 
 .cont2 .wrap.open{
-    clip-path:circle(2000px at 29% 64.5%);
-    -webkit-clip-path:circle(2000px at 29% 64.5%);
+    clip-path:circle(2000px at 29% 69%);
+    -webkit-clip-path:circle(2000px at 29% 69%);
 }
 
 .cont2 .wrap.close{
-    clip-path:circle(0px at 29% 64.5%);
-    -webkit-clip-path:circle(0px at 29% 64.5%);
+    clip-path:circle(0px at 29% 69%);
+    -webkit-clip-path:circle(0px at 29% 69%);
 }
 
 .wrap .close{
@@ -466,7 +470,7 @@ body{
     position:absolute;
     cursor:pointer;
     left:25%;
-    top:62%;
+    top:67%;
 }
 
 .cont2 .project h2{
@@ -544,7 +548,7 @@ body{
     border:1px solid #838383;
     border-radius:100%;
     left:50.5%;
-    top:452px;
+    top:560px;
     transform: scale(0);
 }
 
@@ -566,20 +570,20 @@ body{
     justify-content: space-around;
     align-items: center;
     margin-left:auto;
-    clip-path:circle(0px at 56.5% 57%);
-    -webkit-clip-path:circle(0px at 56.5% 57%);
+    clip-path:circle(0px at 56.5% 68%);
+    -webkit-clip-path:circle(0px at 56.5% 68%);
     transition:all 1s ease-out;
     z-index:5;
 }
 
 .cont3 .wrap.open{
-    clip-path:circle(2000px at 56.5% 57%);
-    -webkit-clip-path:circle(2000px at 56.5% 57%);
+    clip-path:circle(2000px at 56.5% 68%);
+    -webkit-clip-path:circle(2000px at 56.5% 68%);
 }
 
 .cont3 .wrap.close{
-    clip-path:circle(0px at 56.5% 57%);
-    -webkit-clip-path:circle(0px at 56.5% 57%);
+    clip-path:circle(0px at 56.5% 68%);
+    -webkit-clip-path:circle(0px at 56.5% 68%);
 }
 
 .wrap .close{
@@ -601,7 +605,7 @@ body{
     position:absolute;
     cursor:pointer;
     left:52%;
-    top:55%;    
+    top:66%;    
 }
 
 .cont3 .project h2{
@@ -678,8 +682,8 @@ body{
     height:200px;
     border:1px solid #838383;
     border-radius:100%;
-    left:66.3%;
-    top:590px;
+    left:71.2%;
+    top:300px;
     transform: scale(0);
 }
 
@@ -701,20 +705,20 @@ body{
     justify-content: space-around;
     align-items: center;
     margin-left:auto;
-    clip-path:circle(0px at 72% 72%);
-    -webkit-clip-path:circle(0px at 72% 72%);
+    clip-path:circle(0px at 77% 42%);
+    -webkit-clip-path:circle(0px at 77% 42%);
     transition:all 1s ease-out;
     z-index:5;
 }
 
 .cont4 .wrap.open{
-    clip-path:circle(2000px at 72% 72%);
-    -webkit-clip-path:circle(2000px at 72% 72%);
+    clip-path:circle(2000px at 77% 42%);
+    -webkit-clip-path:circle(2000px at 77% 42%);
 }
 
 .cont4 .wrap.close{
-    clip-path:circle(0px at 72% 72%);
-    -webkit-clip-path:circle(0px at 72% 72%);
+    clip-path:circle(0px at 77% 42%);
+    -webkit-clip-path:circle(0px at 77% 42%);
 }
 
 .wrap .close{
@@ -735,8 +739,8 @@ body{
 .cont4 .project{
     position:absolute;
     cursor:pointer;
-    left:70%;
-    top:70%;
+    left:75%;
+    top:40%;
     
 }
 
@@ -814,7 +818,7 @@ body{
     height:200px;
     border:1px solid #838383;
     border-radius:100%;
-    left:58%;
+    left:36%;
     top:110px;
     transform: scale(0);
 }
@@ -838,20 +842,20 @@ body{
     justify-content: space-around;
     align-items: center;
     margin-left:auto;
-    clip-path:circle(0px at 65% 22.2%);
-    -webkit-clip-path:circle(0px at 65% 22.2%);
+    clip-path:circle(0px at 42% 22.2%);
+    -webkit-clip-path:circle(0px at 42% 22.2%);
     transition:all 1s ease-out;
     z-index:5;
 }
 
 .cont5 .wrap.open{
-    clip-path:circle(2000px at 65% 22.2%);
-    -webkit-clip-path:circle(2000px at 65% 22.2%);
+    clip-path:circle(2000px at 42% 22.2%);
+    -webkit-clip-path:circle(2000px at 42% 22.2%);
 }
 
 .cont5 .wrap.close{
-    clip-path:circle(0px at 65% 22.2%);
-    -webkit-clip-path:circle(0px at 65% 22.2%);
+    clip-path:circle(0px at 42% 22.2%);
+    -webkit-clip-path:circle(0px at 42% 22.2%);
 }
 
 .wrap .close{
@@ -872,7 +876,7 @@ body{
 .cont5 .project{
     position:absolute;
     cursor:pointer;
-    left:60%;
+    left:38%;
     top:20%;
     
 }
@@ -946,128 +950,8 @@ body{
     background-repeat: no-repeat;
 }
 /*---------------------------------------------------------*/
-.s2 .cont6 .c_circle6{
-    position: absolute;
-    width:200px;
-    height:200px;
-    border:1px solid #838383;
-    border-radius:100%;
-    left:31.3%;
-    top:150px;
-    transform: scale(0);
-}
 
-.s2 .cont6 .c_circle6.act{
-    animation:c_water2 ease-in-out 1.5s;
-}
-
-.cont6 .wrap{
-    /*position: relative;
-    width:100%;
-    height:100vh;*/
-    position:fixed;
-    top:200%;
-    background:#000;
-    display:flex;
-    list-style:none;
-    width:100%;
-    height:100vh;
-    justify-content: space-around;
-    align-items: center;
-    margin-left:auto;
-    clip-path:circle(0px at 38% 26%);
-    -webkit-clip-path:circle(0px at 38% 26%);
-    transition:all 1s ease-out;
-    z-index:5;
-}
-
-.cont6 .wrap.open{
-    clip-path:circle(2000px at 38% 26%);
-    -webkit-clip-path:circle(2000px at 38% 26%);
-}
-
-.cont6 .wrap.close{
-    clip-path:circle(0px at 38% 26%);
-    -webkit-clip-path:circle(0px at 38% 26%);
-}
-
-.wrap .close{
-    position:absolute;
-    z-index:2;
-    top:30px;
-    right:30px;
-    cursor:pointer;
-}
-
-.wrap .close h2{
-    font-family: 'Lato', sans-serif;
-    font-weight:700;
-    font-size:1.5rem;
-    color:#fff;
-}
-
-.cont6 .project{
-    position:absolute;
-    cursor:pointer;
-    left:33%;
-    top:24%;
-}
-
-.cont6 .project h2{
-    font-family: 'Lato', sans-serif;
-    font-weight:700;
-    font-size:2.5rem;
-}
-
-.about{
-    width:100%;
-    height:100vh;
-    color:#fff;
-}
-
-.about .a_title{
-    position: relative;
-    width:30%;
-    font-family: 'Lato', sans-serif;
-    font-weight:900;
-    font-size:3.5rem;
-    top:120px;
-    left:80px;
-}
-
-.about ul{
-    position: relative;
-    list-style: none;
-    width:94%;
-    height:50%;
-    left:3%;
-    right:3%;
-    top:22%;
-}
-
-.about ul li:first-child{
-    position: relative;
-    width:40%;
-}
-
-.about ul li:first-child .t_title{
-    position: relative;
-    font-size:1.4rem;
-    text-align:center;
-}
-
-.about ul li:first-child ul{
-    position: relative;
-    width:100%;
-}
-
-.about ul li:first-child ul li:first-child img{
-    position: relative;
-    width:50%;
-}
-
-
-/*---------------------------------------------------------*/
+/*---------------------------------------------------------
 .s3 .profile_img{
     position: relative;
     top:-10%;
@@ -1126,4 +1010,210 @@ body{
     font-family: 'Lato', sans-serif;
     font-size:1.2rem;
     line-height:4.2em;
+}*/
+
+.s3{
+    background-color:#000;
+}
+
+.wrap_about{
+    position: relative;
+    width:750px;
+    height:750px;
+    left:50%;
+    margin-left:-370px;
+}
+
+.about_F{
+    position: absolute;
+    width:100%;
+    height:100%;
+    transform-style:preserve-3d;
+    transition:all 0.8s ease;
+    /*각 브라우저 별 애니메이션 호환*/
+    -webkit-animation-name: flip;
+    -webkit-animation-duration: 6s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-name: flip;
+    -moz-animation-duration: 6s;
+    -moz-animation-iteration-count: infinite;
+    -o-animation-name: flip;
+    -o-animation-duration: 6s;
+    -o-animation-iteration-count: infinite;
+}
+
+.about_F:hover{
+    animation-play-state:paused;
+}
+
+.about_FF{
+    position:absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    border:1px solid #fff;
+    background-color:#000;
+    border-radius:100%;
+}
+
+.about_FF .about{
+    position: relative;
+    top:50%;
+    margin-top:-260px;
+}
+
+.about_FF .about .t_title{
+    position: relative;
+    text-align:center;
+    color:#fff;
+    font-family: 'Lato', sans-serif;
+    font-size:1.5rem;
+    left:-28px;
+}
+
+.about_FF .about ul{
+    position:relative;
+    width:80%;
+    list-style: none;
+    top:30px;
+    left:50%;
+    margin-left:-270px;
+}
+
+.about_FF .about ul li{
+    position: relative;
+    height:100%;
+    font-family: 'Lato', sans-serif;
+    font-size:1.15rem;
+}
+
+.about_FF .about ul li ul{
+    position: relative;
+    display:flex;
+    list-style: none;
+    width:100%;
+    color:#fff;
+    text-align:center;
+}
+
+.about_FF .about ul li ul li img{
+    position: relative;
+    width:80%;
+}
+
+.about_FF .about ul li ul li ul{
+    position: relative;
+    display:inline-block;
+}
+
+.about_FF .about ul li.ss_title{
+    position: relative;
+    top:170px;
+    text-align:center;
+    color:#fff;
+    font-family: 'Lato', sans-serif;
+    left:-28px;
+}
+
+.about_FF .about ul li.ss_title p{
+    position: relative;
+    top:30px;
+    line-height:2em;
+    font-size:1.15rem;
+}
+
+.about_FF .about ul li.ss_title .s_title{
+    font-size:1.5rem;
+}
+/*-------------------*/
+
+/*------------------*/
+.about_FB a{
+    text-decoration: none;
+    color:#fff;
+}
+
+.about_FB{
+    position: absolute;
+    width:100%;
+    height:100%;
+    backface-visibility:hidden;
+    border:1px solid #fff;
+    background-color:#000;
+    transform:rotateY(180deg);
+    border-radius:100%;
+}
+
+.about_FB .profile_img{
+    position: relative;
+    padding-top:50%;
+    margin-top:-345px;
+}
+.about_FB .profile_img img{
+    position: relative;
+    width:45%;
+    border-radius: 100%;
+    border:1px solid #fff;
+    left:50%;
+    margin-left:-170px;
+}
+
+.about_FB h3{
+    position: relative;
+    padding-top:2.5em;
+    color:#fff;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight:300;
+    font-size:1.5rem;
+    text-align:center;
+}
+
+.about_FB .contact{
+    position: relative;
+    width:100%;
+    padding-top:3em;
+}
+
+.about_FB .contact ul{
+    position: relative;
+    width:70%;
+    height:100%;
+    color:#fff;
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    left:50%;
+    margin-left:-200px;
+}
+
+.about_FB .contact ul li{
+    position: relative;
+    height:33.3333%;
+}
+
+.about_FB .contact ul li ul{
+    display: flex;
+    font-size:1.1rem;
+    font-weight:300;
+}
+
+.about_FB .contact ul li ul li{
+    line-height:2.2em;
+}
+
+.about_FB .contact ul li ul li:first-child{
+    position: relative;
+    width:30%;
+}
+
+.about_FB .contact ul li ul li:last-child{
+    position: relative;
+    width:70%;
+}
+
+.about_FB .contact img{
+    position: relative;
+    display: inline-block;
+    width:40%;
+    border-radius: 100%;
+    border:1px solid #fff;
 }
